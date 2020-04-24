@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://:3306/fs?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password:
+
+  thymeleaf:
+    prefix: classpath:/oauth2/
+    cache: false
+
+security:
+  basic:
+    enabled: false
